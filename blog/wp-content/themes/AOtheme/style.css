@@ -1,0 +1,1003 @@
+/*
+Theme Name: AOtheme
+Theme URI: http://wordpress.org/
+Description: A&O Productions web theme
+Version: 1.0
+Author: Andrew Ertell
+Author URI: http://www.profecio.com
+Tags: none
+
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+
+/* Begin Typography & Colors */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-family:arial, sans-serif;}
+
+body {
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background: #000 url("/images/toprepeat.png") repeat-x;
+	color: #333;
+	text-align: center;
+	}
+
+.frame1 {
+width:990px;
+}	
+
+#page {
+	text-align: left;
+	}
+
+#headerwrapper img {
+border:0;
+}
+
+#banner {
+height:120px;
+}
+
+#header ul {
+padding:0;
+margin:0;
+}
+
+#logo {
+float:left;
+margin-left:15px;
+}
+
+#aoproductionsnet {
+clear:both;
+padding:0 10px;
+font-size:2.4em;
+color:#fff;
+}	
+
+#topNavbar {
+clear:both;
+background:#000;
+padding:5px 0px;
+}
+
+#topNavbar ul{
+list-style-type:none;
+margin-left:10px;
+}
+
+#topNavbar li {
+display:inline;
+color:#fff;
+font-size:2.6em;
+}
+
+#topNavbar li a{
+color:#fff;
+margin:0 15px 5px 15px;
+float:left;
+}
+
+#topNavbar li a:hover{
+
+color:#ccc;
+text-decoration:none;
+}
+
+.headstyle1 {
+background:#000;
+width:380px;
+float:left;
+margin:0 0 5px 0;
+}
+
+.headstyle2 {
+background:#FF0000;
+width:380px;
+float:left;
+margin:0 0 5px 0;
+}
+
+.headstyle3 {
+background:#000;
+width:560px;
+float:left;
+margin:0 0 5px 0;
+}
+
+.homebutt{
+background: url('/images/home.jpg') no-repeat;
+width:90px;
+}
+
+.concertsbutt {
+background: url('/images/concerts.jpg') no-repeat -10px 0;
+width:135px;
+}
+
+.filmsbutt {
+background: url('/images/films.jpg') no-repeat -10px 0;
+width:70px;
+}
+
+.speakersbutt {
+background: url('/images/speakers.jpg') no-repeat -10px 0;
+width:120px;
+}
+
+.homebutt:hover {
+background: url('/images/homeh.jpg') no-repeat;
+}
+
+.concertsbutt:hover {
+background: url('/images/concertsh.jpg') no-repeat -10px 0;
+}
+
+.filmsbutt:hover {
+background: url('/images/filmsh.jpg') no-repeat -10px 0;
+}
+
+.speakersbutt:hover {
+background: url('/images/speakersh.jpg') no-repeat -10px 0;
+}
+
+#smallNavbar {
+height:15px;
+clear:both;
+background:#ddd;
+padding:5px 0px;
+}
+
+#smallNavbar ul{
+list-style-type:none;
+float:right;
+margin-right:20px;
+}
+
+#smallNavbar li {
+display:inline;
+color:#000;
+margin: 0 2px;
+font-size:1.2em;
+}
+
+#smallNavbar li a{
+color:#000;
+}
+
+#smallNavbar li a:hover{
+color:#999;
+text-decoration:none;
+}
+
+.content {
+clear:both;
+background:#fff;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+
+	
+#featured_story {
+overflow:hidden;
+font-size:1.05em;
+padding-top:5px;
+padding-bottom:15px;
+border-bottom:1px solid #ccc;
+margin-right:10px;
+}
+
+#post_area {
+margin-top:10px;
+overflow:hidden;
+margin-right:10px;
+}
+
+#maincol {
+float:right;
+width:575px;
+padding-left:10px;
+border-left:1px solid #ccc;
+margin-top:10px;
+}
+
+.smimage {
+max-width:300px;
+margin:0px 10px 10px 0;
+float:left;
+}
+
+.breaking_copy {
+font-size:1.6em;
+}
+
+h4 {
+clear:both;
+font-size:1.8em;
+font-weight:500px;
+}
+
+
+.entry {
+font-size:1.25em;
+}
+	
+.entry p {
+	clear:both;
+	margin-top:10px;
+	}
+
+
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+
+#footer {
+	background: #fff;
+	border: none;
+	}
+	
+#footer ul{
+list-style-type:none;
+display:inline;
+float:left;
+}
+
+#footer a{
+color:#4b0884;
+}
+
+#footer li{
+display:inline;
+margin:0 10px 0 0;
+}	
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	}
+
+#header .description {
+	float:right;
+	font-size: 2em;
+	margin-top:20px;
+	margin-right:20px;
+	text-align: center;
+	}
+
+h2 {
+	font-size: 1.6em;
+	}
+
+h2.pagetitle {
+	font-size: 1.6em;
+	}
+
+#sidebar h2 {
+	font-family: 'Lucida Grande', Verdana, Sans-Serif;
+	font-size: 1.2em;
+	}
+
+h3 {
+	margin:0;
+	font-size: 2.0em;
+	font-weight:800;
+	color:#4B0884;
+	
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited, #header .description {
+	text-decoration: none;
+	color: white;
+	}
+
+h2, h2 a, h2 a:visited, h3 a, h3 a:visited {
+	color: #333;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+	
+.normal_head {
+color:#fff;
+padding:0 0 0 5px;
+background:#000;
+margin-bottom:5px;
+}
+
+.alert_header {
+background:#ff0000;
+color:#fff;
+padding:0 0 0 5px;
+margin-bottom:5px;
+}
+
+.orange {
+background:#E64701;
+}
+
+.purple {
+background:#4B0884;
+}
+
+.yellow {
+background:#F2BC00;
+}
+
+.blue {
+background:blue;
+}
+
+.green {
+background:green;
+}
+
+#featureframe {
+width:930px;
+border:1px solid #ccc;
+padding:5px 10px;
+float:left;
+}
+
+#shownow_films {
+float:left;
+width:650px;
+border-right:1px solid #ccc;
+height:400px;
+padding:0 10px 0 0;
+}
+
+#upcoming_films {
+float:left;
+width:200px;
+margin:0 0 0 10px;
+}
+
+#upcoming_films ul {
+margin:0 0 0 20px;
+}
+
+.entry p a:visited {
+	color: #b85b5a;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fff;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+#sidebar {
+	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #777;
+	}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h2 a:hover, h3 a:hover {
+	color: #06c;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #147;
+	text-decoration: underline;
+	}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+body {
+	margin: 0 0 0px 0;
+	padding: 0;
+	}
+	
+.frame1 {
+margin: 0px auto;
+}	
+
+#page {
+	padding: 0;
+	background:#fff;
+	}
+
+#header {
+	margin: 0 0 0 0px;
+	padding: 0;
+	background: #000;
+	}
+	
+#headerright {
+float:right;
+clear:right;
+margin-top:10px;
+margin-right:20px;
+}
+
+#respond {
+padding-top:15px;
+clear:both;
+}
+
+.rss {
+font-size:2.5em;
+}	
+
+.headercontent {
+margin:0 auto;
+width:990px;
+}	
+
+.narrowcolumn {
+	float: left;
+	padding: 0 0 20px 45px;
+	margin: 0px 0 0;
+	width: 450px;
+	}
+
+.widecolumn {
+	padding: 10px 0 20px 0;
+	margin: 5px 0 0 150px;
+	width: 450px;
+	}
+
+.post {
+	margin: 0 0 30px;
+	text-align: justify;
+	clear:both;
+	}
+	
+.smpost {
+margin: 0 0 10px;
+text-align: justify;
+}
+
+
+.widecolumn .post {
+	margin: 0;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	float:left;
+	clear:both;
+	}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+	clear:both;
+	float:left;
+	}
+
+.widecolumn .smallattachment {
+	text-align: center;
+	float: left;
+	width: 128px;
+	margin: 5px 5px 5px 0px;
+}
+
+.widecolumn .attachment {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.postmetadata {
+float:left;
+clear: both;
+margin-top:10px;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	padding: 0;
+	margin: 0 auto;
+	width: 960px;
+	height:20px;
+	clear: both;
+	padding:10px 15px;
+	text-align:left;
+	font-size:14px;
+	}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	}
+/* End Structure */
+
+
+
+/*	Begin Headers */
+h1 {
+	padding-top: 70px;
+	margin: 0;
+	}
+
+h2 {
+	margin: 0px 0 0 0;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	}
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+.entry ul li:before, #sidebar ul ul li:before {
+	content: "\00BB \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px;
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+#sidebar {
+float:left;
+width: 380px;
+padding-right:10px;
+padding-top:5px;
+margin-left:10px;
+margin-top:10px;
+}
+
+#sidebar form {
+margin: 0;
+}
+/* End Sidebar */
+
+
+/*Sidebar elements */
+#picture_Area {
+padding-bottom:30px;
+border-bottom:1px solid #ccc;
+height:334px;
+}
+
+#breakingnews {
+margin-top:10px;
+padding-bottom:15px;
+border-bottom:1px solid #ccc;
+}
+
+#films {
+margin-top:10px;
+padding-bottom:15px;
+border-bottom:1px solid #ccc;
+}
+
+.copyspace {
+margin-top:10px;
+}
+
+.side_image {
+float:left;
+display:inline;
+}
+
+#upcomingevents {
+margin-top:10px;
+border-bottom:1px solid #ccc;
+}
+
+.boxpadding {
+padding: 0 10px;
+}
+
+#listserv {
+width:155px;
+background:#ddd;
+margin:10px 0px 10px 0px;
+padding:10px;
+}
+
+
+
+/*End Sidebar elements */
+
+.singlepost {
+padding:20px;
+}
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+
+hr {
+	color:#ccc;
+	clear:both;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */
+
+
+/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
+	It won't be a stylish marriage, I can't afford a carriage.
+	But you'll look sweet upon the seat of a bicycle built for two." */

@@ -1,0 +1,281 @@
+
+/* --- FAlbum ------------------------------------------------------------------------------------ */
+
+
+body {
+	behavior:url("csshover.htc");
+}
+
+.falbum-album {
+	padding: 0px;
+	clear: both;
+}
+  
+.falbum-tn-border-s {
+	float: left;
+	width: 95px;
+	height: 95px;
+}
+
+.falbum-tn-border-t {
+	float: left;	
+	width: 125px;
+	height: 125px;
+}
+
+.falbum-tn-border-m {
+	float: left;
+	width: 260px;
+	height: 260px;
+}
+
+.falbum-thumbnail-nods {
+	float: left;
+	background-color: #fff;
+	border: 1px solid #a9a9a9;
+	padding: 4px;
+}
+
+.falbum-thumbnail-ds {
+	background: url('shadow.gif') no-repeat bottom right;
+	clear: both;
+	float: left;
+ 	margin: 10px 0px 0px 10px;
+	padding: 0;
+	position: relative;
+	vertical-align: middle;
+}
+ 
+.falbum-thumbnail-ds img {
+	 background-color: #fff;
+	 border: 1px solid #a9a9a9;
+	 display: block;
+	 margin: -5px 5px 5px -5px;
+	 padding: 4px;
+	 position: relative;
+	 vertical-align: middle;
+}
+
+
+.falbum-thumbnail-nods img {
+}
+
+
+.falbum-thumbnail-ds img:hover {
+	background-color: #ccd;
+}
+
+.falbum-thumbnail-nods img:hover {
+	background-color: #ccd;
+}
+
+.falbum-title {
+	color: #260;
+	border-bottom: 1px dashed #CCC;
+	margin-top: 1px;
+}
+
+.falbum-title2 {
+	padding: 0 50px 0 0;
+}
+
+.falbum-photo-block {
+	clear: both;
+	float: left;
+	position: relative;
+	margin: 10px 10px 10px 15px;
+}
+
+
+.falbum-photo-nods {
+	clear: both;
+	float: left;
+ 	margin: 10px 0px 0px -10px;
+	padding: 0;
+	position: relative;
+	vertical-align: middle;
+}
+
+.falbum-photo-ds {
+	background: url('shadow.gif') no-repeat bottom right;
+	clear: both;
+	float: left;
+ 	margin: 10px 0px 0px -10px;
+	padding: 0;
+	position: relative;
+	vertical-align: middle;
+}
+ 
+.falbum-photo-nods img {
+	 background-color: #fff;
+	 border: 1px solid #a9a9a9;
+	 display: block;
+	 margin: -5px 5px 5px -5px;
+	 padding: 4px;
+	 position: relative;
+	 vertical-align: middle;
+}
+
+.falbum-photo-ds img {
+	 background-color: #fff;
+	 border: 1px solid #a9a9a9;
+	 display: block;
+	 margin: -5px 5px 5px -5px;
+	 padding: 4px;
+	 position: relative;
+	 vertical-align: middle;
+}
+
+
+.falbum-photo2 {
+	padding-right: 20px;
+	background-color: #fff;
+	border: 1px solid #a9a9a9;
+	margin: 2px 2px 2px 2px;
+	padding: 4px;
+	margin-top:10px;
+}
+  
+.falbum-nav {
+	clear: both;
+	text-align:center;
+	padding: 8px;
+	margin: 5px 10px 0px -10px;
+	width: auto;
+}
+
+.falbum-nav a {
+	text-decoration: none;
+}
+ 
+.falbum-description {
+	clear: both;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+.falbum-exif table{
+	border: 1px solid #a9a9a9;
+	margin: 0 15px 0 0;
+}
+
+.falbum-exif td {
+	margin: 5px 5px 5px 5px;
+	padding: 1px 5px 1px 5px;
+}
+.falbum-exif .odd{
+	background-color: #f0f0f0
+}
+
+.falbum-exif .even{
+	background-color: #e0e0e0
+}
+ 
+a.annotation {
+	position: absolute;
+	border: 1px solid white;
+	padding: 0;
+	display: none;
+}
+ 
+a.annotation span {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	filter:alpha(opacity=20);
+}
+ 
+a.annotation:hover {
+	border-color: yellow;
+}
+
+.falbum-album-recent {	
+	margin-bottom: 15px;
+}
+
+.falbum-navigationBar {
+	clear: both;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+
+.falbum-clear {
+	clear: both;
+}
+
+
+
+/* Annotations */
+
+.annotation-fontClass {font-family: 'Comic Sans MS'; font-size: 1.3em;}
+.annotation-capfontClass {font-family: Arial, sans-serif; font-size: 1.3em; font-weight: bold; color: #ffffff;}
+.annotation-capfontClass A {color: #ffffff; font-size: 1.3em;}
+.annotation-fgClass {background-color: #FFFFCC;}
+.annotation-bgClass {background-color: #FFFF66;}
+
+
+/* ----------- Nice link button styles -------------*/
+.disabledButtonLink
+{
+	color: Gray;
+	text-align:center;
+	padding: 2px 15px 2px 15px;
+	background-color:	#E4E0D2;
+}
+
+a.buttonLink
+{
+	padding: 2px 15px 2px 15px;
+	border:	1px solid #D4D0C2;
+	background-color:	#E4E0D2;
+	text-align:center;
+	white-space: nowrap;
+	color: black;
+}
+
+a.buttonLink:visited
+{
+	color: black;
+}
+
+a.buttonLink:active
+{
+	border:	1px solid #3169C6;
+	background-color:	#3169C6;
+	color: white;
+}
+
+a.buttonLink:hover
+{
+	border:	1px solid #3169C6;
+	background-color:	#C6D3EF;
+	color: black;
+}
+
+a.curPageLink , a.curPageLink:visited,a.curPageLink:link,
+a.otherPageLink , a.otherPageLink:visited,a.otherPageLink:link
+{
+	padding: 2px 4px 2px 4px;
+	font-size: 100%;
+	color: black;
+}
+
+a.otherPageLink , a.otherPageLink:visited,a.otherPageLink:link
+{
+}
+
+a.curPageLink , a.curPageLink:visited,a.curPageLink:link
+{
+	border: 3px double #3169C6;
+	font-weight: bold;
+}
+
+a.otherPageLink:hover,a.curPageLink:hover
+{
+	text-decoration: underline;
+
+}
+
